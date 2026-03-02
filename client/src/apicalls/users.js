@@ -1,4 +1,4 @@
-const { default: axiosInstance } = require(".");
+import axiosInstance from "./index";
 
 export const registerUser = async (payload) => {
     try {
